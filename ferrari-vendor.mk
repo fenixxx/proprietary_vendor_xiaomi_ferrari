@@ -543,6 +543,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/xiaomi/ferrari/proprietary/lib/libtinyalsa.so:system/vendor/lib/libtinyalsa.so
+    vendor/xiaomi/ferrari/proprietary/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so
+    vendor/xiaomi/ferrari/proprietary/lib64/libtinyalsa.so:system/vendor/lib64/libtinyalsa.so
+    vendor/xiaomi/ferrari/proprietary/lib64/hw/audio.primary.msm8916.so:system/vendor/lib64/hw/audio.primary.msm8916.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
